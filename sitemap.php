@@ -20,49 +20,49 @@
       <div id="content">
         <div id="textOnly">
                 <ol>
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="buy.html">Buy Now</a></li>
+                  <li><a href="index.php">Home</a></li>
+                  <li><a href="department.php">Buy Now</a></li>
                   <li>
                     Products and Services 
                     <ul>
-                      <li><a href="products.html">Product Catalog</a></li>
-                      <li><a href="featured.html">Featured Products</a></li>
-                      <li><a href="services.html">Services</a></li>
-                      <li><a href="suppliers.html">Suppliers</a></li>
+                      <li><a href="products.php">Product Catalog</a></li>
+                      <li><a href="featured.php">Featured Products</a></li>
+                      <li><a href="services.php">Services</a></li>
+                      <li><a href="suppliers.php">Suppliers</a></li>
                     </ul>
                   </li>
                   <li>
                     Media Download
                     <ul>
-                      <li><a href="bmi.html">Online Media</a></li>
-                      <li><a href="expert.html">Ask an Expert</a></li>
-                      <li><a href="links.html">Useful Links</a></li>
+                      <li><a href="bmi.php">Online Media</a></li>
+                      <li><a href="expert.php">Ask an Expert</a></li>
+                      <li><a href="links.php">Useful Links</a></li>
                     </ul>
                   </li>
                   <li>
                     About Us 
                     <ul>
-                      <li><a href="vision.html">Vision and Mission</a></li>
-                      <li><a href="employment.html">Employment
+                      <li><a href="vision.php">Vision and Mission</a></li>
+                      <li><a href="employment.php">Employment
                       Opportunities</a></li>
-                      <li><a href="news.html">News Archive</a></li>
+                      <li><a href="news.php">News Archive</a></li>
                     </ul>
                   </li>
                   <li>
                     Contact Us
                     <ul>
-                      <li><a href="locations.html">Our Locations</a></li>
-                      <li><a href="contact.html">Give us feedback</a></li>
+                      <li><a href="locations.php">Our Locations</a></li>
+                      <li><a href="feedback.php">Give us feedback</a></li>
                     </ul>
                   </li>
                   <li>
-                    <a href="sitemap.html">Site Map</a> 
+                    <a href="sitemap.php">Site Map</a> 
                   </li>
                 </ol>
         </div>
       </div>
       <?php
-      include("common/footer.html");
+      include("common/footer.php");
       ?>
     </div>
   </body>
