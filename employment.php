@@ -22,7 +22,7 @@
           <p>Coming soon ... information on employment opportunities with 
           our company. As we grow and expand, and open new locations, we
           will continually be looking for new empoyees who are interested
-          in a healthy lifestyle for themselves and helping to provide the
+          in a technology empowered lifestyle for themselves and helping to provide the
           same for others. If you are such a person, you may wish to submit
           your resume to us.</p>
         </div>

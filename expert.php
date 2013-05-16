@@ -19,9 +19,9 @@
       ?>
       <div id="content">
         <div id="textOnly">
-          <p>Coming soon ... a form to submit a health-related question.
-          Nature's Source recognizes that our clients will, from time to
-          time, have questions that relate to the health of themselves or
+          <p>Coming soon ... a form to submit a scripture related question.
+          MLP Media Systems recognizes that our clients will, from time to
+          time, have questions concerning themselves or
           their family members and we will provide a form for submitting
           such questions and then do our best to answer them.</p>
         </div>

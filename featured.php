@@ -18,7 +18,7 @@
       ?>
       <div id="content">
         <div id="textOnly">
-          <p>Coming soon ... a list of our featured products. We will
+          <p>Coming soon ... a list of our featured media products. We will
           frequently have products on special, and will be introducing
           new products regularly, so keep watching this space for details.</p>
         </div>

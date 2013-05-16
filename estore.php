@@ -19,9 +19,9 @@
       ?>
       <div id="content">
         <div id="textOnly">
-          <p><strong>Thank you for visiting our e-store for all your health
+          <p><strong>Thank you for visiting our e-store for all your information
           needs.</strong><br />We carry a large collection of products for a
-          naturally healthy lifestyle.<br />For your shopping and browsing
+          personally rewarding and legacy producing lifestyle.<br />For your shopping and browsing
           convenience, please choose one of the following links:</p>
           <ul class="estore">
             <li>Want to see what we have to offer?<br />
