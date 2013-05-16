@@ -19,18 +19,16 @@
       ?>
       <div id="content">
         <div id="textLeft">
-          <h3>Welcome to Nature's Source: Protecting your health naturally!</h3>
-          <p>Founded in 1998, Nature's Source was created to serve those who
+          <h3>Welcome to MLP Media Systems: Personal Growth Thru Media!</h3>
+          <p>Founded in 2010, MLP Media Systems was created to serve those who
           use alternative healing methods. Offering only the highest quality
-          vitamins, minerals, supplements &amp; herbal remedies, Nature's
-          Source takes great pride in helping people live healthier, happier
+          vitamins, minerals, supplements &amp; herbal remedies, MLP Media 
+		  Systems takes great pride in helping people live healthier, happier
           lives.</p>
-          <p>Many Companies that talk about Customer Service fail to deliver.
-          Nature's Source exists to truly serve all the needs of their
-          customers. Each location features dedicated on-site therapists
-          along with knowledgeable staff who ensure that every customer
-          receives the best quality information available. Continuing
-          Education seminars are a regular event at Nature's Source.</p>
+          <p>Many Companies that talk about Customer Commitment fail to deliver.
+          MLP Media Systems exists to truly serve all the needs of their
+          customers. Continuing
+          Education online materials are always available at MLP Media.</p>
         </div>
         <div id="image">
           <img id="placeholder" src="" alt="Healthy Lifestyle"
