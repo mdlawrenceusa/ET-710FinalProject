@@ -18,9 +18,8 @@
       include("common/mainmenu.html");
       ?>
         <div id="textOnly">
-          <p>Coming soon ... a complete list of our suppliers. Nature's
-          Source realizes that our clients will be interested in the source
-          of the products we make available to our customers. We will make
+          <p>Coming soon ... a complete list of our suppliers. MLP Media Systems realizes that our clients will be interested in the source
+          of the media products we make available to our customers. We will make
           available here a list of those who supply our products and, where
           relevant, those who assist us to provide our services.</p>
         </div>

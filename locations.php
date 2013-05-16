@@ -23,11 +23,10 @@
           Each location will be accompanied by contact information and a
           link to a map showing showing you how to find us at that
           location.</p>
-          <p>In the meantime, here is our main location:<br />
-          5029 Hurontario Street Unit 2<br />
-          Mississauga, ON L4Z 3X7<br />
-          Tel: 905.502.6789<br />
-          Fax: 905.890.8305</p>
+          <p>In the meantime, here is a location that carries many wonderful 
+		  titles:<br />
+          Crenshaw Christian Center New York<br>1 West 96th Street<br>New York, 
+		  NY 10025</p>
         </div>
       </div>
       <?php

@@ -23,7 +23,7 @@ session_destroy();
       <div id="content">
         <div id="textOnly" class="FeedbackForm">
         <?php if ($notLoggedIn) { ?>
-        <p>Thank you for visiting Nature's Source.<br />
+        <p>Thank you for visiting MLP Media Systems.<br />
         You have not yet logged in.</p>
         <p><a href="login.php" class="noDecoration"> Click here if you wish to
           log in.</a></p>

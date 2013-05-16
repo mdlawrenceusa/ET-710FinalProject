@@ -32,9 +32,9 @@
                     </ul>
                   </li>
                   <li>
-                    Your Health
+                    Media Download
                     <ul>
-                      <li><a href="bmi.html">BMI Calculator</a></li>
+                      <li><a href="bmi.html">Online Media</a></li>
                       <li><a href="expert.html">Ask an Expert</a></li>
                       <li><a href="links.html">Useful Links</a></li>
                     </ul>

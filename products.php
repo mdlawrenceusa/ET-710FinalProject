@@ -19,8 +19,8 @@
       ?>
       <div id="content">
         <div id="textOnly">
-          <p>Nature's Source provides a wide variety of products that focus
-          on alternate health and healing options. We hope and trust that you
+          <p>MLP Media Systems provides a wide variety of media products that focus
+          on successful living outcomes. We hope and trust that you
           will find something among our catalog of offerings that you will find
           useful and appealing. Our catalog is still under development.</p>
         </div>

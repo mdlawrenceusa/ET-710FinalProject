@@ -19,8 +19,8 @@
       ?>
         <div id="textOnly">
           <p>Coming soon ... a complete list of our services.
-          Nature's Source is happy to provide a number of sevices that will
-          will help our clients lead healthier and happier lives. Keeep
+          MLP Media Systems is happy to provide a number of sevices that will
+          will help our clients lead productive and happier lives. Keeep
           watching this space for further information.</p>
         </div>
       </div>

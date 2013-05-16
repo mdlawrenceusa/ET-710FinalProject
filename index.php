@@ -20,10 +20,10 @@
       <div id="content">
         <div id="textLeft">
           <h3>Welcome to MLP Media Systems: Personal Growth Thru Media!</h3>
-          <p>Founded in 2010, MLP Media Systems was created to serve those who
-          use alternative healing methods. Offering only the highest quality
-          vitamins, minerals, supplements &amp; herbal remedies, MLP Media 
-		  Systems takes great pride in helping people live healthier, happier
+          <p>Founded in 2010, MLP Media Systems was created to serve those who 
+		  use alternative healing methods. Offering only the highest quality 
+		  media materials, MLP Media Systems takes great pride in helping people live 
+		  productive, happier
           lives.</p>
           <p>Many Companies that talk about Customer Commitment fail to deliver.
           MLP Media Systems exists to truly serve all the needs of their
