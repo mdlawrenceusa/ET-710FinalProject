@@ -1,9 +1,9 @@
 <!-- banner.php -->
-<div id="logo">
+<div id="logo"  style="background-color:white">
   <img src="images/naturelogo.gif" alt="Nature's Source"
   width="608px" height="90px" />
 </div>
-<div id="Welcome">
+<div id="Welcome"  style="background-color:white">
   <?php
   //Please make sure that you have called session_start()
   //at the beginning of the file that includes this script.
