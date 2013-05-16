@@ -19,7 +19,7 @@
         <style>
 
 			body{
-				background:#333 url(bg.jpg) repeat top left;
+				
 				font-family:Arial;
 			}
 			span.reference{
@@ -79,9 +79,9 @@
       include("common/mainmenu.html");
       ?>
 
-
-<div class="content">
-			<table style="width: 100%">
+<div style="background-image:url(bg.jpg)">
+<div class="content" >
+			<table style="width: 100%" >
 				<tr>
 					<td>
 			<h1 class="auto-style8" >Links To Mike's Recommended Messages</h1>
