@@ -25,7 +25,7 @@
                   <li>
                     Products and Services 
                     <ul>
-                      <li><a href="products.php">Product Catalog</a></li>
+                      <li><a href="department.php">Product Catalog</a></li>
                       <li><a href="featured.php">Featured Products</a></li>
                       <li><a href="services.php">Services</a></li>
                       <li><a href="suppliers.php">Suppliers</a></li>
@@ -62,7 +62,7 @@
         </div>
       </div>
       <?php
-      include("common/footer.php");
+      include("common/footer.html");
       ?>
     </div>
   </body>
