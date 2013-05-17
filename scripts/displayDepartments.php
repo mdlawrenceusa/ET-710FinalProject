@@ -1,7 +1,7 @@
 <?php
 //displayDepartments.php
 $query = "SELECT * FROM Ref_Product_Categories
-    ORDER BY department_name DESC";
+     WHERE department_name = 'MLP' ORDER BY department_name DESC";
 $category = mysql_query($query)
     or die(mysql_error());
 $numRecords = mysql_num_rows($category);
