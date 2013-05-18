@@ -4,7 +4,7 @@
 <!-- department.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Nature's Source - Product Categories</title>
+    <title>MLP Media Systems - Product Categories</title>
     <meta http-equiv="Content-Type" 
           content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css"

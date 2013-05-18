@@ -4,7 +4,7 @@
 <!-- employment.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Nature's Source - Employment Opportunities</title>
+    <title>MLP Media Systems - Employment Opportunities</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta http-equiv="refresh" content="60" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />

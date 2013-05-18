@@ -7,7 +7,7 @@ if ($_SESSION["customer_id"] != "") header('Location: estore.php');
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Nature's Source - Logging In</title>
+    <title>MLP Media Systems - Logging In</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <script type="text/javascript" src="scripts/menu.js"></script>

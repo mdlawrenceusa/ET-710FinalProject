@@ -4,7 +4,7 @@
 <!-- sitemap.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Nature's Source - Canada's largest specialty vitamin store</title>
+    <title>MLP Media Systems - Global Media Source</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <meta http-equiv="refresh" content="60" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />

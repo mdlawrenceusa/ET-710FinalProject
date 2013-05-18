@@ -4,7 +4,7 @@
 <!-- category.php -->
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Nature's Source - Individual Products</title>
+    <title>MLP Media Systems - Individual Products</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
     <link rel="stylesheet" type="text/css" href="css/default.css" />
     <script type="text/javascript" src="scripts/menu.js"></script>
