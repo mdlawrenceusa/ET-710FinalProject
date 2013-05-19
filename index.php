@@ -31,8 +31,8 @@
           Education online materials are always available at MLP Media.</p>
         </div>
         <div id="image">
-          <img id="placeholder" src="" alt="Healthy Lifestyle"
-          width="280px" height="160px" />
+          <img id="placeholder" src="" alt="Well Done..."
+          width="157px" height="157px" />
         </div>
       </div>
       <?php

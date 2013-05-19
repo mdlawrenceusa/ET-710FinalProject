@@ -6,21 +6,17 @@ var today = new Date();
 //Build the appropriate prefix for filenames, depending on whether
 //today is a weekday (indoor images) or the weekend (outdoor images).
 var prefix = "images/";
-switch (today.getDay())
-{
-    case 0:
-    case 5:
-    case 6:
-        prefix += "outdoor";
-        break;
-    default:
-        prefix += "indoor";
-}
 
 //Use that prefix to put the proper sequence of image filenames into an array
-var imageArray = new Array(6);
-for (i=0; i<imageArray.length; i++)
-    imageArray[i] = prefix + (i+1) + ".jpg";
+var imageArray = new Array(4);
+
+
+imageArray[0] = "http://d346634xumb5g3.cloudfront.net/MLP/tableofvictory/artwork/category/MISSIONS.png";
+imageArray[1] = "http://d346634xumb5g3.cloudfront.net/MLP/tableofvictory/artwork/category/BC.png";
+imageArray[2] = "http://d346634xumb5g3.cloudfront.net/MLP/tableofvictory/artwork/category/SB.png";
+imageArray[3] = "http://d346634xumb5g3.cloudfront.net/MLP/tableofvictory/artwork/category/TBC.png";
+
+
 
 //Rotate the images in the array
 var imageCounter = 0;
@@ -29,11 +25,11 @@ function rotate()
     var imageObject = document.getElementById('placeholder');
     imageObject.src = imageArray[imageCounter];
     ++imageCounter;
-    if (imageCounter == 6) imageCounter = 0;
+    if (imageCounter == 3) imageCounter = 0;
 }
 
 function startRotation()
 {
-    document.getElementById('placeholder').src=imageArray[5];
+    document.getElementById('placeholder').src=imageArray[3];
     setInterval('rotate()', 2000);
 }
