@@ -1,6 +1,8 @@
 <?php
 //processPurchase.php
 ///////////////// main begins /////////////////////
+$retry = stripslashes($_REQUEST['retry']);
+
 $prod = stripslashes($_REQUEST['prod']);
 $customer_id = $_SESSION["customer_id"];
 $items = getExistingOrder($_SESSION['customer_id']);
@@ -168,4 +170,24 @@ function displayNewItem($prod)
         <input type='button' value='Continue shopping' /></a></p>
         </td></tr>";
 }
+
+function displayNewItemQuantity($prod)
+{
+    displayFirstFourColumns($prod);
+    echo "<td align='center'>";
+    
+    echo "<input type='hidden' id='prod'
+          name='prod' value=".trim($prod).">";
+          
+    echo "<input type='text' id='quantity'
+          name='quantity' size='3'>";
+    echo "</td><td align='center'>";
+    echo "TBA";
+    echo "</td><td align='center'>";
+    echo "<p><input type='button' value='Confirm new quantity' /></p>
+        <p><a href='department.php'>
+        <input type='button' value='Continue shopping' /></a></p>
+        </td></tr>";
+}
+
 ?>
