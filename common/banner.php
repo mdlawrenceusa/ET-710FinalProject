@@ -33,11 +33,12 @@
           $customer_middle_initial . " " .
           $customer_last_name . "<br/>";
           echo "It's ".date("l, F jS").".<br />";
-		  if ($items==1){
+		 
+		 if ($items==1){
 		  	echo "You have ".$items." title in your cart.<br />";
 			}
 			else
-			}
+			{
 			echo "You have ".$items." titles in your cart.<br />";
 			}
 			
