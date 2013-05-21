@@ -41,6 +41,8 @@ else
     );";
     mysql_query($query)
         or die(mysql_error());
+   include 'updateCart.php' ;
+
     header('Location: ../purchase.php?prod=view');
 }
 ////////////// main ends functions begin //////////////

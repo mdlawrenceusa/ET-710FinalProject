@@ -25,7 +25,7 @@ function rotate()
     var imageObject = document.getElementById('placeholder');
     imageObject.src = imageArray[imageCounter];
     ++imageCounter;
-    if (imageCounter == 3) imageCounter = 0;
+    if (imageCounter == 4) imageCounter = 0;
 }
 
 function startRotation()

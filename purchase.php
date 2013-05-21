@@ -27,6 +27,8 @@ if($_SESSION['customer_id'] == "")
       <div id="content">
         <div id="purchaseProducts">
           <?php include "scripts/processPurchase.php" ?>
+          <?php include "scripts/updateCart.php" ?>
+
         </div>
       </div>
       <?php include("common/footer.html"); ?>

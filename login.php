@@ -52,6 +52,7 @@ if ($_SESSION["customer_id"] != "") header('Location: estore.php');
           </form>
         </div>
       </div>
+
       <?php include("common/footer.html"); ?>
     </div>
   </body>

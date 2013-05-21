@@ -12,6 +12,10 @@
   $customer_middle_initial = $_SESSION["customer_middle_initial"];
   $customer_last_name = $_SESSION["customer_last_name"];
   $customer_id = $_SESSION["customer_id"];
+          //include 'scripts/updateCart.php';
+
+  $items = $_SESSION["productsInCart"];
+
   if ($_REQUEST['nodisplay'] != true)
   {
       if ($customer_id == "")
@@ -29,7 +33,10 @@
           $customer_middle_initial . " " .
           $customer_last_name . "<br/>";
           echo "It's ".date("l, F jS").".<br />";
+		  echo "You have ".$items." titles in your cart.<br />";
+
           echo "Our time is ".date('g:ia').".</h5>";
+          
           echo "<strong><a href = \"logout.php\">Click here to log out</a></strong>";
       }
   }

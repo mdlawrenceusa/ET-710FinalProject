@@ -7,6 +7,8 @@ $items = getExistingOrder($_SESSION['customer_id']);
 // Some How the orders table is being inserted...
 
 $numRecords = mysql_num_rows($items);
+
+
 if ($numRecords == 0 && $prod == "view")
 {
     echo "<p><strong>Your shopping cart is empty.</strong></p>
@@ -59,6 +61,7 @@ function getExistingOrder($customer_id)
         Orders.customer_id = $customer_id;";
     $items = mysql_query($query)
         or die(mysql_error());
+    
     return $items;
 }
 
