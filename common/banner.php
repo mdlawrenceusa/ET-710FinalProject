@@ -33,8 +33,14 @@
           $customer_middle_initial . " " .
           $customer_last_name . "<br/>";
           echo "It's ".date("l, F jS").".<br />";
-		  echo "You have ".$items." titles in your cart.<br />";
-
+		  if ($items==1){
+		  	echo "You have ".$items." title in your cart.<br />";
+			}
+			else
+			}
+			echo "You have ".$items." titles in your cart.<br />";
+			}
+			
           echo "Our time is ".date('g:ia').".</h5>";
           
           echo "<strong><a href = \"logout.php\">Click here to log out</a></strong>";
