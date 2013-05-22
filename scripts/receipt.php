@@ -76,18 +76,14 @@ function displayFooter($grandTotal)
     printf("<td align='right'>\$%.2f</td></tr>", $grandTotal);
     echo "<tr><td colspan='5'>
         <p><strong>Your order has been processed.<br />
-        Thank you very much for shopping with Nature's Source.<br />
+        Thank you very much for shopping with MLP Media Systems.<br />
         We appreciate your purchase of the above product(s).<br />
         You may print a copy of this page for your permanent record.<br />
         <a href='estore.php' class='noDecoration'>Please click here
         to return to the e-store home page.</a><br />
         Or you can choose any one of the navigation
         links provided in the menu.</strong></p>
-        <p>Note to readers of the text:<br />We have only
-        marked the order and corresponding items as paid.<br />
-        We have also reduced the inventory in the Products table.<br />
-        Actual handling of payments and shipment is beyond
-        the scope of our book.</p>
+        <p></p>
         </td></tr></table>";
 }
 
