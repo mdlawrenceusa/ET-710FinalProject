@@ -1,9 +1,14 @@
 <?php
-//processPurchase.php
+//updatePurchase.php
 ///////////////// main begins /////////////////////
-$retry = stripslashes($_REQUEST['retry']);
 
+$retry = stripslashes($_REQUEST['retry']);
+$order_item = stripslashes($_REQUEST['order_item']);
+$order_id = stripslashes($_REQUEST['order_id']);
 $prod = stripslashes($_REQUEST['prod']);
+
+
+
 $customer_id = $_SESSION["customer_id"];
 $items = getExistingOrder($_SESSION['customer_id']);
 // Some How the orders table is being inserted...
@@ -11,55 +16,20 @@ $items = getExistingOrder($_SESSION['customer_id']);
 $numRecords = mysql_num_rows($items);
 
 
-if ($numRecords == 0 && $prod == "view")
-{
-    echo "<p><strong>Your shopping cart is empty.</strong></p>
-        <p><a class='noDecoration' 
-        href='estore.php'><strong>Please click here
-        to continue shopping ...</strong></a></p>";
-}
-else
-{
     displayHeader();
-    $grandTotal = 0;
-    if ($numRecords == 0)
-    {
-        createOrder($customer_id);
-    }
-    else //There are existing items to display
-    {
-        for ($i = 0; $i < $numRecords; $i++)
-        {
-            $grandTotal += displayExistingItem($items);
-        }
-    }
-
-    if ($prod != "view") //Display entry row for new item
-    {
-        if ($retry)
+    if ($retry)
         {
             echo "<tr><td colspan='7' align='center'>
                 <strong>Please re-enter a product
                 quantity not exceeding the inventory
                 level.</strong></td></tr>";
         }
-        displayNewItem($prod);
-    }
+
+   displayNewItemQuantity($prod, $order_item, $order_id);
     
- /*    if ($numRecords > 0 && $prod == "view") //assume 
-    {
-        if ($retry)
-        {
-            echo "<tr><td colspan='7' align='center'>
-                <strong>Please re-enter a product
-                quantity not exceeding the inventory
-                level.</strong></td></tr>";
-        }
-        displayNewItemQuantity($prod);
-    }*/
+        displayFooter($grandTotal);
 
-    displayFooter($grandTotal);
-}
+
 
 ///////////////// main ends functions begin /////////////////////
 
@@ -103,7 +73,7 @@ function createOrder($customer_id)
 function displayHeader()
 {
     echo "<form id='orderForm' onsubmit='return validateOrderForm();'
-        action='scripts/addItem.php'>";
+        action='scripts/updateItemProperty.php'>";
     echo "<table border='1px'>";
     echo "<tr>
         <td align='center'><strong>Product Image</strong></td>
@@ -160,8 +130,7 @@ function displayExistingItem($items)
         $row['order_item_id']."&order_id=".$row['order_id']."'>
         <input type='button' value='Delete from cart' /></a></p>
         
-		<p><a href='updateQuantity.php?prod=$prod&order_item=".
-        $row['order_item_id']."&order_id=".$row['order_id']."'>
+		<p><a href='scripts/processPurchase.php?'>        
         <input type='button' value='updateQuantity' /></a></p>
         
         <p><a href='department.php'>
@@ -189,7 +158,7 @@ function displayNewItem($prod)
         </td></tr>";
 }
 
-function displayNewItemQuantity($prod)
+function displayNewItemQuantity($prod, $order_item, $order_id)
 {
     displayFirstFourColumns($prod);
     echo "<td align='center'>";
@@ -197,12 +166,23 @@ function displayNewItemQuantity($prod)
     echo "<input type='hidden' id='prod'
           name='prod' value=".trim($prod).">";
           
+          
+    echo "<input type='hidden' id='order_item'
+          name='order_item' value=".trim($order_item).">";
+          
+    echo "<input type='hidden' id='order_id'
+          name='order_id' value=".trim($order_id).">";
+
+
+          
     echo "<input type='text' id='quantity'
           name='quantity' size='3'>";
     echo "</td><td align='center'>";
     echo "TBA";
     echo "</td><td align='center'>";
-    echo "<p><input type='button' value='Confirm new quantity' /></p>
+    
+    
+    echo "<p><input type='submit' value='Confirm new quantity' /></p>
         <p><a href='department.php'>
         <input type='button' value='Continue shopping' /></a></p>
         </td></tr>";
