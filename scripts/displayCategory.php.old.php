@@ -4,19 +4,19 @@
  if ($_GET['search'] != "") {//ADDD CONDITION STATEMENT
 
  $cat = stripslashes($_GET['search']);//ADDED FOR SEARCH BOX
- $query = "SELECT * FROM Products WHERE
+ $query = "SELECT * FROM products WHERE
  product_category_code = '$cat'
  ORDER BY product_name ASC";
  }
  else if (stripslashes($_REQUEST['cat'] != "")){
 
  $cat = stripslashes($_REQUEST['cat']);//$cat = stripslashes($cat);
- $query = "SELECT * FROM Products WHERE
+ $query = "SELECT * FROM products WHERE
  product_category_code = $cat
  ORDER BY product_name ASC";
  }
  else{
- $query = "SELECT * FROM Products WHERE
+ $query = "SELECT * FROM products WHERE
  product_category_code = ''
  ORDER BY product_name ASC";
 

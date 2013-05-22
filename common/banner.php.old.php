@@ -46,17 +46,6 @@
           
           echo "<strong><a href = \"logout.php\">Click here to log out</a></strong>";
       }
-      }
- ?>
-
- <!--// SEARCH BOX BEGINS //-->
- <div style= " clear :both ;">
- <form method= "GET" action= "category.php" >
- <input type= "text" id= "search" name="search" />
- <input type= "submit" value= "search" />
- </form>
-
- </div>
- <!--// SEARCH BOX ENDS //-->
- </div>
-
+  }
+  ?>
+</div>
