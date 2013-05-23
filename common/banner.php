@@ -15,6 +15,8 @@
 <div id="logo"  style="background-color:white">
   <img src="images/mlpmslogo.png" alt="MLP Media Systems"
   width="608px" height="90px" />
+  <img src="images/feed-icon.png" width="17px" height="17px"/>
+<a class="iconlink xml" href="rss/rss.php" target="blank">RSS Feed</a>
 </div>
 <div id="Welcome"  style="background-color:white">
   <?php
@@ -81,8 +83,7 @@ $( "#search" ).autocomplete({
 });
 </script>
  </form>
-  <img src="images/feed-icon.png" width="17px" height="17px"/>
-<a class="iconlink xml" href="rss/rss.php" target="blank">RSS Feed</a>
+  
 
  </div>
  <!--// SEARCH BOX ENDS //-->
