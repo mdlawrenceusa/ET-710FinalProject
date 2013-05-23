@@ -81,10 +81,7 @@ $( "#search" ).autocomplete({
 });
 </script>
  </form>
- 
-
- 
- <img src="images/feed-icon.png" width="17px" height="17px"/>
+  <img src="images/feed-icon.png" width="17px" height="17px"/>
 <a class="iconlink xml" href="rss/rss.php" target="blank">RSS Feed</a>
 
  </div>
