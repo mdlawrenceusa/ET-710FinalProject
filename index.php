@@ -22,7 +22,7 @@
           <h3>Welcome to MLP Media Systems: Personal Growth Thru Media!</h3>
           <p>Founded in 2010, MLP Media Systems was created to serve those who 
 		  have an interest in Biblical Topics. Offering only the highest quality 
-		  media materials, MLP Media Systems takes great pride in helping people live 
+		  media materials, MLP Media Systems takes great solace in helping people live 
 		  productive, happier
           lives.</p>
           <p>Many Companies that talk about Customer Commitment fail to deliver.
