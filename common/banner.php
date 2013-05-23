@@ -1,6 +1,6 @@
 <!-- banner.php -->
 <div id="logo"  style="background-color:white">
-  <img src="images/mlpmslogo.png" alt="Nature's Source"
+  <img src="images/mlpmslogo.png" alt="MLP Media Systems"
   width="608px" height="90px" />
 </div>
 <div id="Welcome"  style="background-color:white">

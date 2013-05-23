@@ -1,3 +1,6 @@
+
+
+
 <?php
  /*
 
@@ -19,7 +22,7 @@
  echo "<tr><td align='center'><strong>Product Image</strong></td>
  <td align='center'><strong>Product Name</strong></td>
  <td align='center'><strong>Price</strong></td>
- <td align='center'><strong>Quantity in Stock</strong></td>
+ <td align='center'><strong>Product Description</strong></td>
  <td align='center'><strong>Purchase?</strong></td></tr>";
  for ($i = 0; $i < $numRecords; $i++)
  {
@@ -34,14 +37,29 @@ AGE,
 
  */
  echo "<img height='350px' width='350px'
- src='".$row["product_image_url"]."'
+ src='".$row["imageURI"]."'
  alt='Product Image' />";
  echo "</td><td>";
- echo $row["product_name"]."edited";
+ echo $row["product_name"];
  echo "</td><td align='center'>";
  printf("$%.2f",$row["product_price"]);
- echo "</td><td align='center'>";
- echo $row["product_inventory"];
+ echo "</td><td align='left'>";
+ echo $row["product_description"];
+ 
+ echo "<audio id='audio1' controls='controls' class='auto-style9'>";
+ 	echo "	<source id='mp3_src' ";
+	echo "src='".$row["mediaURI"]."' 
+	type='audio/mp3'>" ;
+ 	echo"					Your browser does not support HTML5 video.";
+		echo "				</audio></td>";
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  echo "</td><td align='center'>";
  echo "<a href=\"purchase.php?prod='".$row["product_id"]."'\">";
  echo "<img src='images/buythisitem.png' alt='Buy this item' /></a>";
@@ -49,3 +67,6 @@ AGE,
  }
  echo "</table>";
  ?>
+ 
+
+

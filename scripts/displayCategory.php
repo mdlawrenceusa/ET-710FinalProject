@@ -41,14 +41,14 @@
  $row = mysql_fetch_array($category);
  echo "<td align='center'>";
  echo "<img height='70px' width='70px'
- src='".$row["product_image_url"]."'
+ src='".$row["iconURI"]."'
  alt='Product Image' />";
  echo "</td><td><a href=\"productDetail.php?prod='".$row["product_id"]."'\">";// echo "</td><td>";
- echo $row["product_name"]."edited";
+ echo $row["product_name"];
  echo "</a></td><td align='center'>";// echo "</td><td align='center'>";
  printf("$%.2f",$row["product_price"]);
- echo "</td><td align='center'>";
- echo $row["product_inventory"];
+ echo "</td><td align='left'>";
+ echo $row["product_description"];
  echo "</td><td align='center'>";
  echo "<a href=\"purchase.php?prod='".$row["product_id"]."'\">";
  echo "<img src='images/buythisitem.png' alt='Buy this item' /></a>";
