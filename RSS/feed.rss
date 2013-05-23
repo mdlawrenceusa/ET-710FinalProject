@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">.html
+<channel>
+ <title>Media Titles</title>
+ <description>MDL Media Titles</description>
+ <link>http://174.129.102.218/index.php</link>
+ <lastBuildDate>Mon, 06 Sep 2010 00:01:00 +0000 </lastBuildDate>
+ <pubDate>Mon, 06 Sep 2009 16:45:00 +0000 </pubDate>
+ <ttl>1800</ttl>
+ 
+ <item>
+  <title>MDL Media Systems</title>
+  <description>Media For the New World</description>
+  <link>http://174.129.102.218/index.php</link>
+  <guid>0001</guid>
+  <pubDate>Mon, 06 Jun 2013 16:45:00 +0000 </pubDate>
+ </item>
+ 
+ 
+ <item>
+  <title>Establishing The Truth For Yourself</title>
+  <description>Overview of the basic tenants of Christianity</description>
+  <link>http://d346634xumb5g3.cloudfront.net/MLP/tableofvictory/establishingthetruth1.mp3</link>
+  <guid>0002</guid>
+  <pubDate>Mon, 06 Jun 2013 16:45:00 +0000 </pubDate>
+ </item>
+ 
+ 
+</channel>
+
+
+</rss>
+
