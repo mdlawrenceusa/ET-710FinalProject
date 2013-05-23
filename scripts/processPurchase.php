@@ -109,7 +109,7 @@ function displayHeader()
         <td align='center'><strong>Product Image</strong></td>
         <td align='center'><strong>Product Name</strong></td>
         <td align='center'><strong>Price</strong></td>
-        <td align='center'><strong>Inventory</strong></td>
+        <td align='center'><strong>Description</strong></td>
         <td align='center'><strong>Quantity</strong></td>
         <td align='center'><strong>Total</strong></td>
         <td align='center'><strong>Action</strong></td>
@@ -135,13 +135,13 @@ function displayFirstFourColumns($prod)
     echo "<tr>\n";
     echo "<td align = center>";
     echo  "<img height='70' width='70'
-        src = \"".$row['product_image_url']."\" />";
-    echo "</td><td>";
-    echo $row['product_name'];
-    echo "</td><td align='center'>";
+        src = \"".$row['iconURI']."\" />";
+    echo "</td><td><a href=\"productDetail.php?prod='".$row["product_id"]."'\">";// echo "</td><td>";
+ 	echo $row["product_name"];
+	echo "</td><td align='center'>";
     printf("$%.2f\n",$row['product_price']);
-    echo "</td><td align='center'>";
-    echo $row['product_inventory'];
+    echo "</td><td align='left'>";
+    echo $row['product_description'];
     echo "</td>";
 }
 

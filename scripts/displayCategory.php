@@ -3,9 +3,9 @@
 
  if ($_GET['search'] != "") {//ADDD CONDITION STATEMENT
 
- $cat = stripslashes($_GET['search']);//ADDED FOR SEARCH BOX
+ $cat = "%".stripslashes($_GET['search'])."%";//ADDED FOR SEARCH BOX
  $query = "SELECT * FROM Products WHERE
- product_category_code = '$cat'
+ keyWords LIKE'$cat'
  ORDER BY product_name ASC";
  }
  else if (stripslashes($_REQUEST['cat'] != "")){
