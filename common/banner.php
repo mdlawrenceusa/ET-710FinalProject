@@ -15,8 +15,8 @@
 <div id="logo"  style="background-color:white">
   <img src="images/mlpmslogo.png" alt="MLP Media Systems"
   width="608px" height="90px" />
-  <img src="images/feed-icon.png" width="17px" height="17px"/>
-<a href="rss/rss.php" target="blank">RSS Feed</a>
+  <img src="images/feedcon.png" width="17px" height="17px"/>
+<a href="rss/feed.php" target="blank">RSS Feed</a>
 </div>
 <div id="Welcome"  style="background-color:white">
   <?php
