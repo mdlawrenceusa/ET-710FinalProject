@@ -1,0 +1,61 @@
+CREATE DATABASE  IF NOT EXISTS `webbook` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `webbook`;
+-- MySQL dump 10.13  Distrib 5.5.24, for osx10.5 (i386)
+--
+-- Host: et714w1.cxyxeo3ohdep.us-east-1.rds.amazonaws.com    Database: webbook
+-- ------------------------------------------------------
+-- Server version	5.5.27-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `Order_Items`
+--
+
+DROP TABLE IF EXISTS `Order_Items`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `Order_Items` (
+  `order_item_id` int(11) NOT NULL AUTO_INCREMENT,
+  `order_item_status_code` varchar(2) NOT NULL,
+  `order_id` int(11) NOT NULL,
+  `product_id` int(11) NOT NULL,
+  `order_item_quantity` double NOT NULL,
+  `order_item_price` double NOT NULL,
+  `other_order_item_details` int(11) NOT NULL,
+  PRIMARY KEY (`order_item_id`),
+  KEY `order_id` (`order_id`),
+  KEY `product_id` (`product_id`),
+  KEY `order_item_status_code` (`order_item_status_code`)
+) ENGINE=MyISAM AUTO_INCREMENT=85 DEFAULT CHARSET=latin1;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `Order_Items`
+--
+
+LOCK TABLES `Order_Items` WRITE;
+/*!40000 ALTER TABLE `Order_Items` DISABLE KEYS */;
+INSERT INTO `Order_Items` VALUES (1,'IP',13,708145,1,1.59,0),(2,'IP',14,707957,1,25,0),(8,'IP',87,708032,1,16.99,0),(7,'IP',87,708587,1,50,0),(11,'IP',17,708180,1,1.59,0),(9,'IP',87,708438,1,4.99,0),(10,'IP',87,707897,1,13.99,0),(12,'IP',17,708430,1,18,0),(13,'IP',17,708536,1,26.99,0),(14,'IP',18,708443,1,29.99,0),(15,'IP',18,708347,3,19.99,0),(16,'IP',19,708592,4,69.99,0),(17,'IP',19,708534,20,15,0),(18,'IP',19,708112,39,1.99,0),(19,'IP',91,708379,3,39.99,0),(20,'IP',91,708071,4,19.99,0),(21,'IP',92,708418,5,59.99,0),(22,'IP',92,708443,3,29.99,0),(23,'IP',20,708309,3,44,0),(24,'IP',20,708272,4,13.99,0),(27,'IP',25,758001,3,5,0),(26,'IP',21,708424,4,19.99,0),(28,'IP',26,758001,2,5,0),(29,'IP',26,758050,3,5,0),(30,'IP',26,758050,22,5,0),(31,'IP',27,758030,2,5,0),(32,'IP',28,758030,3,5,0),(34,'IP',100,758030,3,5,0),(35,'IP',100,758001,4,5,0),(36,'IP',100,758050,5,5,0),(37,'IP',100,758070,7,5,0),(39,'IP',103,758050,1,5,0),(41,'IP',35,758030,1,5,0),(42,'IP',36,758001,5,5,0),(48,'IP',38,758030,3,5,0),(47,'IP',38,758050,2,5,0),(49,'IP',38,758001,2,5,0),(50,'IP',38,758001,3,5,0),(71,'IP',122,758070,3,5,0),(72,'IP',122,758050,3,5,0),(73,'IP',45,758070,2,5,0),(68,'IP',122,758050,7,5,0),(74,'IP',46,758001,1,5,0),(84,'IP',48,758035,1,5,0),(83,'IP',48,758002,1,5,0),(82,'IP',127,758054,3,5,0);
+/*!40000 ALTER TABLE `Order_Items` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2013-05-24 12:18:44
